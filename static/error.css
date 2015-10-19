@@ -1,0 +1,18 @@
+body {
+	background-color: #D3EEFF;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+}
+
+hgroup {
+	font-family:Helvettica,Arial,sans-serif;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+footer {
+	font-family:Tahoma,Helvettica,sans-serif;
+	color:grey;
+	text-align:center;
+}

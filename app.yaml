@@ -1,0 +1,21 @@
+application: asn-center
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+  
+- url: /
+  script: index.html
+  
+- url: /index.\html
+  script: index.html
+  
+- url: /asn\.php
+  script: asn.php
+  
+- url: /error\.html
+  script: error.html
+
+- url: /static
+  static_dir: static

@@ -1,0 +1,41 @@
+header {
+	font-family:Arial,Helvettica,sans-serif;
+	background-color:grey;
+	color:white;
+	float:left;
+	margin-right:25px;
+	padding:20px;
+	-webkit-animation-name:'header';
+	-webkit-animation-duration:0.5s;
+}
+
+@-webkit-keyframes 'header' {
+	0% {margin-top:100px;}
+	100% {margin-top:0px;}
+}
+
+body {
+	background-color:#D3EEFF;
+	width:85%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	border-width:15px;
+	border-style:solid;
+	border-radius:12px;
+	border-color:#666666;
+	box-shadow:0px 0px 20px black;
+}
+
+h2 {
+	font-family:Tahoma,Helvettica,sans-serif;
+	float:right;
+}
+footer {
+	font-family:Tahoma,Helvettica,sans-serif;
+	background-color:grey;
+	color:white;
+	padding:20px;
+	text-align:center;
+}
