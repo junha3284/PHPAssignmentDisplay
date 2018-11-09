@@ -1,10 +1,7 @@
 PHP Assignment Display
 ======================
 
-Overview
--------------
-
-This is a simple app to retrieve C++ source file from my school's working directory with syntax highlighting and generate an HTML page to display the code using PHP.
+This is a simple app to retrieve C++ source files from Simon Fraser University's working directory with syntax highlighting and generate an HTML page to display the source files using PHP.
 
 Usage
 ---------
@@ -13,7 +10,7 @@ Parameters are `$type` and `$id`.
 
 For example, to retrieve an assignment called asn1.cpp, specify this in URL: 
        `http://www.example.com/asn.php?type=asn&id=asn1`
-where `$type` is usually `asn` for assignment and `ex` for exercise. `$id` is usually the filename without extension.
+where `$type` is `asn` for assignment and `ex` for exercise. `$id` is the filename without extension.
 
 Acknowledgement
 ----------------
